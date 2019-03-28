@@ -4,29 +4,23 @@
 #include "Calculator1.h"
 void testcase(void)
 {
-    assert(calculator(41,42,1)== 83);
- printf("\nexecuted,OK");
-
-  assert(calculator(5,-4,1)== 1);
- printf("\nexecuted,OK");
-
- assert(calculator(-32,-2,1)== -34);
- printf("\nexecuted,OK");
-
- assert(calculator(12,10,2)== 2);
- printf("\nexecuted,OK");
-
- assert(calculator(5,10,2)== -5);
- printf("\nexecuted,OK");
-
- assert(calculator(-12,-34,2)== 22);
- printf("\nexecuted,OK");
-
- assert(calculator(12,3,4)== 8);
- printf("\nexecuted,OK");
+    assert(calc_1(12,11,1)== 23);
+ printf("\nOK");
+  assert(calc_1(19,-12,1)== 7);
+ printf("\nOK");
+ assert(calc_1(-12,-23,1)== -35);
+ printf("\nOK");
+ assert(calc_1(12,2,2)== 10);
+ printf("\nOK");
+ assert(calc_1(15,-3,2)== 18);
+ printf("\nOK");
+ assert(calc_1(-20,-40,2)== 20);
+ printf("\nOK");
+ assert(calc_1(3,0,4)== 0);
+ printf("\n ok");
 }
 void main(void){
- printf("calculator testing with assert function :");
+ printf("Testing Calculator using assert :");
 
 testcase();
 
