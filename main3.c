@@ -7,6 +7,7 @@ void testcase(void)
     assert(calc_1(12,11,1)== 23);
  printf("\nOK");
   assert(calc_1(19,-12,1)== 7);
+ printf("commited by vamsi")
  printf("\nOK");
  assert(calc_1(-12,-23,1)== -35);
  printf("\nOK");
